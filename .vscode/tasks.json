@@ -1,0 +1,27 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+      {
+        "label": "Build Raylib Game",
+        "type": "shell",
+        "command": "gcc",
+        "args": [
+          "b24cm1010_b24ee1067_b24ch1043_b24me1057_b24ee1012_main.c",
+          "-o",
+          "b24cm1010_b24ee1067_b24ch1043_b24me1057_b24ee1012_main.exe",
+          "-IC:/raylib/raylib/src",
+          "-LC:/raylib/raylib/build/raylib",
+          "-lraylib",
+          "-lopengl32",
+          "-lgdi32",
+          "-lwinmm"
+        ],
+        "group": {
+          "kind": "build",
+          "isDefault": false
+        },
+        "problemMatcher": []
+      }
+    ]
+  }
+  
